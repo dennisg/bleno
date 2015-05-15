@@ -12,7 +12,8 @@
   ],
   "scripts": {
     "pretest": "jshint *.js lib/. test/. examples/.",
-    "test": "mocha -R spec test/*.js"
+    "test": "mocha -R spec test/*.js",
+    "test1": "mocha -R spec test/test-uribeacon.js"
   },
   "repository": {
     "type": "git",
